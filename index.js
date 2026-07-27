@@ -1,20 +1,23 @@
 export default new class HayaseESSubs {
 
   async test() {
-    return true
+    console.log("TEST EJECUTADO");
+    return true;
   }
 
-  async single({ anilistId, titles, episode }) {
-    console.log("Hayase ES Subs:", {
-      anilistId,
-      titles,
-      episode
-    })
-
-    return []
+  async single(args) {
+    console.log("SINGLE", args);
+    return [];
   }
 
-  batch = this.single
-  movie = this.single
+  async movie(args) {
+    console.log("MOVIE", args);
+    return [];
+  }
 
-}()
+  async batch(args) {
+    console.log("BATCH", args);
+    return [];
+  }
+
+}();
