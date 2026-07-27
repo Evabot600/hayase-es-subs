@@ -8,10 +8,8 @@
     "version": "1.0.0",
     "type": "subtitle",
     "accuracy": "medium",
-    "icon": "https://github.com/favicon.ico",
     "media": "sub",
     "languages": ["ES"],
-    "code": "https://evabot600.github.io/hayase-es-subs/index.js",
-    "url": ""
+    "code": "https://evabot600.github.io/hayase-es-subs/index.js"
   }
 ]
