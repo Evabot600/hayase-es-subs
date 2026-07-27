@@ -5,12 +5,7 @@ export default new class extends SubtitleSource {
   }
 
   async single() {
-    return [
-      {
-        url: "https://raw.githubusercontent.com/PolyglotGuy/subtitle-tools/master/examples/example.srt",
-        language: "ES"
-      }
-    ];
+    throw new Error("¡¡SINGLE FUE EJECUTADO!!");
   }
 
 }();
