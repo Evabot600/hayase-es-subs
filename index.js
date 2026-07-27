@@ -1,10 +1,12 @@
-export default new class extends SubtitleSource {
+export default new class HayaseESSubs {
 
   async test() {
     return true
   }
 
-  async single(query) {
+  async single({ titles, episode }) {
+    console.log(titles, episode)
+
     return []
   }
 
