@@ -1,9 +1,10 @@
-{
-  "manifestVersion": 2,
-  "name": "Hayase ES Subs",
-  "description": "Subtitulos en español",
-  "id": "hayase-es-subs",
-  "version": "1.0.0",
-  "type": "subtitle",
-  "code": "https://cdn.jsdelivr.net/gh/Evabot600/hayase-es-subs/index.js"
-}
+[
+  {
+    "manifestVersion": 2,
+    "name": "Hayase ES Subs",
+    "id": "hayase-es-subs",
+    "version": "1.0.0",
+    "type": "subtitles",
+    "code": "https://cdn.jsdelivr.net/gh/Evabot600/hayase-es-subs/index.js"
+  }
+]
