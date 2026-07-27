@@ -1,10 +1,16 @@
 [
   {
     "manifestVersion": 2,
+    "deprecated": false,
     "name": "Hayase ES Subs",
-    "id": "hayase-es-subs",
+    "description": "Subtitulos en español",
+    "id": "hayase.extension.es_subs",
     "version": "1.0.0",
-    "type": "subtitles",
+    "type": "torrent",
+    "accuracy": "medium",
+    "icon": "https://github.githubassets.com/favicons/favicon.png",
+    "media": "sub",
+    "languages": ["ES"],
     "code": "https://cdn.jsdelivr.net/gh/Evabot600/hayase-es-subs/index.js"
   }
 ]
