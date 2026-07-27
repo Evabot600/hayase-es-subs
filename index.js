@@ -1,16 +1,13 @@
-export default new class HayaseESSubs {
-
-  async single({ titles, episode }) {
-    console.log("Buscando subtítulos:", titles, episode)
-
-    return []
-  }
-
-  batch = this.single
-  movie = this.single
+export default new class extends SubtitleSource {
 
   async test() {
     return true
+  }
+
+  async single({ anilistId, episode, titles }) {
+    console.log(anilistId, episode, titles)
+
+    return []
   }
 
 }()
