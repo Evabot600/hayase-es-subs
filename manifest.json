@@ -11,6 +11,6 @@
     "icon": "https://github.githubassets.com/favicons/favicon.png",
     "media": "sub",
     "languages": ["ES"],
-    "code": "https://raw.githubusercontent.com/Evabot600/hayase-es-subs/main/index.js"
+    "code": "https://cdn.jsdelivr.net/gh/Evabot600/hayase-es-subs/index.js"
   }
 ]
