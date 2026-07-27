@@ -1,0 +1,12 @@
+[
+  {
+    "manifestVersion": 2,
+    "id": "test.extension",
+    "name": "TEST",
+    "version": "1.0.0",
+    "type": "subtitle",
+    "media": "sub",
+    "languages": ["ES"],
+    "code": "https://example.com/index.js"
+  }
+]
