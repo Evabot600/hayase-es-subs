@@ -8,10 +8,10 @@
     "version": "1.0.0",
     "type": "subtitle",
     "accuracy": "medium",
-    "icon": "https://github.githubassets.com/favicons/favicon.png"
+    "icon": "https://github.githubassets.com/favicons/favicon.png",
     "media": "sub",
     "languages": ["ES"],
-    https://raw.githubusercontent.com/Evabot600/hayase-es-subs/main/index.js
+    "code": "https://raw.githubusercontent.com/Evabot600/hayase-es-subs/main/index.js",
     "rateLimit": 5
   }
 ]
