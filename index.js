@@ -1,15 +1,17 @@
-export default new class HayaseESSubs {
+export default new class extends SubtitleSource {
 
-    async test() {
-        throw new Error("HOLA SOY LA EXTENSION");
-    }
+  async test() {
+    return true;
+  }
 
-    async single(args) {
-        return [];
-    }
+  async single({ anilistId, episode, titles, fetch }) {
+    console.log("SUBTITLE QUERY", {
+      anilistId,
+      episode,
+      titles
+    });
 
-    async movie(args) {
-        return [];
-    }
+    return [];
+  }
 
 }();
