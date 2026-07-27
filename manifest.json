@@ -8,11 +8,10 @@
     "version": "1.0.0",
     "type": "subtitle",
     "accuracy": "medium",
-    "icon": "https://example.com/icon.png",
+    "icon": "https://github.githubassets.com/favicons/favicon.png"
     "media": "sub",
     "languages": ["ES"],
-    "code": "https://raw.githubusercontent.com/Evabot600/hayase-es-subs/refs/heads/main/index.js",
-    "url": "https://TU_FUENTE_DE_SUBS",
+    https://raw.githubusercontent.com/Evabot600/hayase-es-subs/main/index.js
     "rateLimit": 5
   }
 ]
