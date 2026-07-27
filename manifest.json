@@ -1,0 +1,18 @@
+[
+  {
+    "manifestVersion": 2,
+    "deprecated": false,
+    "name": "Hayase ES Subs",
+    "description": "Busca subtítulos en español para episodios de anime",
+    "id": "hayase-es-subs",
+    "version": "1.0.0",
+    "type": "subtitle",
+    "accuracy": "medium",
+    "icon": "https://example.com/icon.png",
+    "media": "sub",
+    "languages": ["ES"],
+    "code": "https://raw.githubusercontent.com/Evabot600/hayase-es-subs/refs/heads/main/index.js",
+    "url": "https://TU_FUENTE_DE_SUBS",
+    "rateLimit": 5
+  }
+]
