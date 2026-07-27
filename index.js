@@ -4,14 +4,13 @@ export default new class extends SubtitleSource {
     return true;
   }
 
-  async single({ anilistId, episode, titles, fetch }) {
-    console.log("SUBTITLE QUERY", {
-      anilistId,
-      episode,
-      titles
-    });
-
-    return [];
+  async single() {
+    return [
+      {
+        url: "https://raw.githubusercontent.com/PolyglotGuy/subtitle-tools/master/examples/example.srt",
+        language: "ES"
+      }
+    ];
   }
 
 }();
