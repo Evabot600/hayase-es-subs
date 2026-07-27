@@ -4,8 +4,17 @@ export default new class HayaseESSubs {
     return true
   }
 
-  async single() {
+  async single({ anilistId, titles, episode }) {
+    console.log("Hayase ES Subs:", {
+      anilistId,
+      titles,
+      episode
+    })
+
     return []
   }
+
+  batch = this.single
+  movie = this.single
 
 }()
