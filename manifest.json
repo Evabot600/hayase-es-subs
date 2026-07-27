@@ -4,7 +4,7 @@
     "id": "hayase.extension.es_subs.dev",
     "name": "Hayase ES Subs",
     "description": "Subtítulos en español para anime",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "type": "subtitle",
     "accuracy": "medium",
     "media": "sub",
