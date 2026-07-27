@@ -1,9 +1,9 @@
 export default new class extends SubtitleSource {
   async test() {
-    return true;
+    return true
   }
 
-  async single() {
-    return [];
+  async single(query) {
+    return []
   }
 }
